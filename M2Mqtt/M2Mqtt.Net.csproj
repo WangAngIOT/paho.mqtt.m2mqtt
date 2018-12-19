@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>uPLibrary.Networking.M2Mqtt</RootNamespace>
     <AssemblyName>M2Mqtt.Net</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>..\bin\Debug\M2Mqtt.Net</OutputPath>
-    <DefineConstants>TRACE;DEBUG;SSL</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;SSL,FRAMEWORK_VERSION_4_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
@@ -28,7 +28,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\bin\Release\M2Mqtt.Net</OutputPath>
-    <DefineConstants>TRACE;SSL</DefineConstants>
+    <DefineConstants>TRACE;SSL,FRAMEWORK_VERSION_4_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
