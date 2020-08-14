@@ -13,6 +13,7 @@ and the Eclipse Distribution License is available at
 Contributors:
    Paolo Patierno - initial API and implementation and/or initial documentation
 */
+#if (WinRT)
 
 using System.Collections.Generic;
 
@@ -25,3 +26,5 @@ namespace uPLibrary.Networking.M2Mqtt
     {
     }
 }
+#else
+#endif

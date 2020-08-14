@@ -14,6 +14,8 @@ Contributors:
    Paolo Patierno - initial API and implementation and/or initial documentation
 */
 
+#if (WinRT)
+
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -34,3 +36,6 @@ namespace uPLibrary.Networking.M2Mqtt
         public static void SleepThread(int millisecondsTimeout) { Task.Delay(millisecondsTimeout).RunSynchronously(); }
     }
 }
+
+#else
+#endif

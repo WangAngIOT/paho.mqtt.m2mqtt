@@ -6,9 +6,9 @@
         <title>M2Mqtt - MQTT Client Library for .Net and WinRT</title>
         <authors>Paolo Patierno</authors>
         <owners>Paolo Patierno</owners>
-        <licenseUrl>https://github.com/WangAngIOT/m2mqtt/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/WangAngIOT/m2mqtt</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/WangAngIOT/m2mqtt/master/images/M2Mqtt_Short_Logo.png</iconUrl>
+        <licenseUrl>https://github.com/angwangiot/m2mqtt/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/angwangiot/m2mqtt</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/angwangiot/m2mqtt/master/images/M2Mqtt_Short_Logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>M2Mqtt is a MQTT client for M2M communication.</description>
         <summary>M2Mqtt is a MQTT client for M2M communication.</summary>
@@ -17,6 +17,5 @@
         <tags>m2m mqtt queue messaging internetofthings iot cloud gadgeteer</tags>
     </metadata>
     <files>
-		<file src="bin\Release\M2Mqtt.Net\*.*" target="lib\net40" />
 	</files>
 </package>
